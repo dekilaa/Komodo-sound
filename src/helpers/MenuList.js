@@ -1,4 +1,4 @@
-import Pepperoni from "../assets/work_in_progress01.jpg";
+import DekiLaa from "../assets/DekiLaa-live-zmaj.jpg";
 import Margherita from "../assets/work_in_progress01.jpg";
 import PedroTechSpecial from "../assets/work_in_progress01.jpg";
 import Vegan from "../assets/work_in_progress01.jpg";
@@ -7,9 +7,9 @@ import Expensive from "../assets/work_in_progress01.jpg";
 
 export const MenuList = [
   {
-    name: "work in progress",
-    image: Pepperoni, //na osnovu ovog imena slike se ubacuje slika u manu item
-    // price: 15.99,
+    name: "Komodo Sound Tech Special - DekiLaa",
+    image: DekiLaa, //na osnovu ovog imena slike se ubacuje slika u manu item
+    price: "https://www.youtube.com/watch?v=drXu6hfbN0s&t=1912s",
   },
   {
     name: "work in progress",

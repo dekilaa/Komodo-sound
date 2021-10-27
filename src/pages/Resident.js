@@ -1,7 +1,7 @@
 import React from "react";
 import ResidentImg from "../assets/mix.jpg";
 import "../styles/Resident.css";
-import DekilaaImg from "../assets/work_in_progress01.jpg"
+import WorkInProgress from "../assets/work_in_progress01.jpg"
 
 function Resident() {
   return (
@@ -12,7 +12,7 @@ function Resident() {
        </div>
       <div className="residents">
         <div >
-        <img src={DekilaaImg} />
+        <img alt="WorkInProgress" src={WorkInProgress} />
          <h1>Steve core</h1>
          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
          incididunt ut labore et dolore magna aliqua. Nisl purus in mollis nunc sed id semper risus.
@@ -27,7 +27,7 @@ function Resident() {
       </div>
       <div className="residents">
         <div>
-        <img className ="rightImg" src={DekilaaImg} />
+        <img alt="WorkInProgress" className ="rightImg" src={WorkInProgress} />
          <h1>DekiLaa</h1>
          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -39,7 +39,7 @@ function Resident() {
       </div>
       <div className="residents">
         <div>
-        <img src={DekilaaImg} />
+        <img alt="WorkInProgress" src={WorkInProgress} />
          <h1>David Popović</h1>
          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit
            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh venenatis cras
@@ -52,7 +52,7 @@ function Resident() {
       </div>
       <div className="residents">
         <div>
-        <img className ="rightImg" src={DekilaaImg} />
+        <img alt="WorkInProgress" className ="rightImg" src={WorkInProgress} />
          <h1 className ="h1right">Ćuma</h1>
          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -64,7 +64,7 @@ function Resident() {
       </div>
       <div className="residents">
         <div>
-        <img src={DekilaaImg} />
+        <img alt="WorkInProgress" src={WorkInProgress} />
          <h1>Gagy</h1>
          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temp
          or incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac orc
