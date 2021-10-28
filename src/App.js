@@ -7,6 +7,7 @@ import About from "./pages/About";
 import Resident from "./pages/Resident";
 import Contact from "./pages/Contact";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Radio from './pages/Radio'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/resident" exact component={Resident} />
           <Route path="/about" exact component={About} />
           <Route path="/contact" exact component={Contact} />
+          <Route className="AppR" path="/radio" exact component={Radio} />
         </Switch>
         <Footer />
       </Router>
