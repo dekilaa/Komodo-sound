@@ -68,10 +68,15 @@ h2 .radio {
 }
 
 .radio {
-  max-width: 60em;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.filters {
+.filters { /*tip radio stanice clasical country... */
   display: flex;
   justify-content: center;
   margin-bottom: 2em;
@@ -82,7 +87,7 @@ h2 .radio {
   background: linear-gradient(to bottom right, #e36bae, #fb743e);
 }
 
-.filters span {
+.filters span { /*tip radio stanice clasical country... */
   margin: 0 0.25em;
   border: 1px solid #e36bae;
   border-radius: 10px;
@@ -127,6 +132,7 @@ h2 .radio {
 .name {
   width: 100%;
   text-align: center;
+  
 }
 
 .stationName img {
@@ -142,7 +148,7 @@ audio {
   width: 100%;
 }
 
-.rhap_container.player {
+.rhap_container.player { /*deo gde je play i jacina zvuka*/
   background-color: rgb(76, 62, 95);
   display: flex;
   justify-items: center;

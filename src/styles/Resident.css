@@ -1,6 +1,6 @@
 .resident {
   width: 100%;
-  height: 190vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   background-color: #D5D5D5;
@@ -9,7 +9,7 @@
 
 .residentTop {
   width: 100%;
-  height: 80%;
+  height: 450px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
