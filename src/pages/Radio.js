@@ -20,9 +20,9 @@ const Radio = () => {
     const api = new RadioBrowserApi(fetch.bind(window), "My Radio App");
 
     const stations = await api.searchStations({
-      language: "english",
+      language: "german",
       tag: stationFilter,
-      limit: 30
+      limit: 18
     })
 
     return stations;
@@ -30,16 +30,10 @@ const Radio = () => {
 
   const filters = [
     "all",
-    "classical",
-    "country",
-    "dance",
-    "disco",
-    "house",
-    "jazz",
-    "pop",
-    "rap",
-    "retro",
-    "rock"
+    "techno",
+    "trance",
+    "psytrance",
+    "metal",
   ]
 
   const setDefaultSrc = (e) => {
@@ -77,6 +71,7 @@ const Radio = () => {
                 customControlsSection={["MAIN_CONTROLS","VOLUME_CONTROLS"]}
                 autoPlayAfterSrcChange={false}
               />
+            
             </div>
           )
         }
