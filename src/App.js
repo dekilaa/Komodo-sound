@@ -8,10 +8,13 @@ import Resident from "./pages/Resident";
 import Contact from "./pages/Contact";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Radio from './pages/Radio'
+import {WifiLoaderComponent} from "./pages/PreLoader";
 
 function App() {
   return (
+    
     <div className="App">
+    
       <Router>
         <Navbar />
         <Switch>
