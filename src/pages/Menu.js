@@ -7,6 +7,7 @@ import BannerImage from "../assets/ploca.jpg";
 function Menu() {
   return (
     <div className="menu"  style={{ backgroundImage: `url(${BannerImage})` }}>
+    
       <h1 className="menuTitle">Live stream's</h1>
       <div className="menuList">
         {MenuList.map((menuItem, key) => {

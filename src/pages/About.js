@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import AboutImg from "../assets/cover_about_black.jpg";
 import "../styles/About.css";
+import Loading from '../components/Loading';
+import { Router } from "@material-ui/icons";
+
 
 function About() {
+
   return (
     <div className="about">
       <div
@@ -29,7 +33,6 @@ function About() {
         
       </div>
     </div>
-    
   );
 }
 

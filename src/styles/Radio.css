@@ -81,6 +81,7 @@ h2 .radio {
   justify-content: center;
   margin-bottom: 2em;
   font-size: 1.2rem;
+  
 }
 
 .filters .selected {
@@ -89,7 +90,8 @@ h2 .radio {
 
 .filters span { /*tip radio stanice clasical country... */
   margin: 0 0.25em;
-  border: 1px solid #e36bae;
+  border: 1px solid;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   padding: 0.25em 0.75em;
 }
@@ -106,7 +108,7 @@ h2 .radio {
 
 .station {
   font-size: 1.4rem;
-  border: 1px solid rgb(76, 62, 95);
+  border: 1px solid #7F7C82;
   margin: 0.25em;
   border-radius: 10px;
   padding: 1em;
@@ -118,6 +120,8 @@ h2 .radio {
 
 .station:hover {
   border-color: #e36bae;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in;
 }
 
 .stationName {
@@ -132,7 +136,15 @@ h2 .radio {
 .name {
   width: 100%;
   text-align: center;
-  
+  font-family: "KomodoFont";
+  font-size: 28px;
+  color: #E5B299;
+
+}
+.name:hover {
+  cursor: pointer;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in;
 }
 
 .stationName img {
@@ -149,11 +161,12 @@ audio {
 }
 
 .rhap_container.player { /*deo gde je play i jacina zvuka*/
-  background-color: rgb(76, 62, 95);
+  background: linear-gradient(to bottom right, #e36bae, #fb743e);
   display: flex;
   justify-items: center;
   padding: 0.25em 0.75em;
   border-radius: 10px;
+  opacity: 0.7
 }
 
 .rhap_stacked .rhap_controls-section {
@@ -169,5 +182,5 @@ audio {
 }
 
 .rhap_controls-section .rhap_main-controls button[aria-label="Pause"] svg path {
-  fill: #e36bae !important;
+  fill: #c9c497 !important;
 }

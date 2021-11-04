@@ -7,7 +7,7 @@ import "../styles/Radio.css";
 // import BackgroundImg from "../assets/ploca-3.jpg"
 
 const Radio = () => {
-  const [stations,setStations] = useState();
+  const [stations,setStations] = useState();  
   const [stationFilter,setStationFilter] = useState("all");
 
   useEffect(() => {
@@ -63,13 +63,15 @@ const Radio = () => {
                 </div>
               </div>
               <AudioPlayer 
+                
                 className="player" 
                 src={station.urlResolved} 
-                showJumpControls={false}
+                showJumpControls={true}
                 layout="stacked"
                 customProgressBarSection={[]}
                 customControlsSection={["MAIN_CONTROLS","VOLUME_CONTROLS"]}
                 autoPlayAfterSrcChange={false}
+                
               />
             
             </div>
